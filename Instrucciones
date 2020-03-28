@@ -1,0 +1,13 @@
+CLONAR este repositorio:
+git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
+
+AÑADIR LAS SIG LINEAS en el archivo ~/.bashrc 
+
+# bash-git-prompt
+GIT_PROMPT_ONLY_IN_REPO=1
+source ~/.bash-git-prompt/gitprompt.sh
+
+RECARGAR LA CONFIG de Bash (.bashrc)
+Cuando modificas el archivo de configuración de Bash (~/.bashrc), 
+debes cerrar e iniciar una nueva sesión para que se hagan efectivos los cambios, 
+o puedes utilizar la instrucción source ~/.bashrc o . ~/.bashrc (son equivalentes).
